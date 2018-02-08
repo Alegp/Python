@@ -1,0 +1,8 @@
+#coding: utf8
+
+mano_der = "movil"
+mano_izq = "bocadillo"
+print("\nBefore swap mano_der = %d and mano_izq = %d" %(mano_der, mano_izq))
+mano_der, mano_izq = mano_izq, mano_der
+print("\nAfter swaping mano_der = %d and mano_izq = %d" %(mano_der, mano_izq))
+print()
