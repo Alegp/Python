@@ -1,0 +1,8 @@
+#coding: utf8
+
+edad = input ("Indique su edad: ")
+
+if (edad >= 15) and (edad <= 17):
+	print "Entras a la sesion de tarde"
+else:
+	print "Acceso denegado"
