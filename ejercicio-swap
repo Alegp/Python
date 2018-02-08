@@ -2,7 +2,10 @@
 
 mano_der = "movil"
 mano_izq = "bocadillo"
-print("\nBefore swap mano_der = %d and mano_izq = %d" %(mano_der, mano_izq))
-mano_der, mano_izq = mano_izq, mano_der
-print("\nAfter swaping mano_der = %d and mano_izq = %d" %(mano_der, mano_izq))
-print()
+
+mano_temp=mano_der
+mano_der=mano_izq
+mano_izq=mano_temp
+
+print mano_der
+print mano_izq
