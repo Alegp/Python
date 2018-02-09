@@ -9,9 +9,9 @@ if (variableA == variableB) or (variableA == variableC) or (variableB == variabl
 else:
     if (variableA > variableB) and (variableA > variableC):
 		if (variableB > variableC):
-			print "Mayor variableA ,Menor variableB"
+			print "Mayor variableA ,Menor variableC"
 		else:
-		    print "Mayor variableA ,Menor variableC"
+		    print "Mayor variableA ,Menor variableB"
     else:
 	    if (variableB > variableA) and (variableB > variableC):
 		    if (variableA > variableC):
