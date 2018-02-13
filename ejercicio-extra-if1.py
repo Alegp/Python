@@ -1,9 +1,12 @@
 #coding: utf8
 
-dividendo = input ("Indique el dividendo: ")
-divisor = input ("Indique el divisor: ")
+dividendo = input ("Escriba el dividendo: ")
+divisor   = input ("Escriba el divisor: ")
+
+cociente = dividendo // divisorç
+resto    = dividendo % divisor
 
 if dividendo % divisor == 0:
-    print ("La division es exacta")
+    print ("La division es exacta. Cociente: ", cociente)
 else:
-	print ("La division no es exacta")
+	print ("La division no es exacta. Cociente: ", cociente, ". Resto: ", resto)
