@@ -6,6 +6,7 @@ divisor   = input ("Escriba el divisor: ")
 if divisor == 0:
     print "No se puede dividir por 0"
     exit("")
+    
 cociente = dividendo // divisor
 resto    = dividendo % divisor
 
