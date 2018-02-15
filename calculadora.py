@@ -1,7 +1,7 @@
 #coding: utf8
 
 num1 = input ("EScribe un numero:")
-operacion = raw_input ("Escribe un operador: ")
+operacion = raw_input ("Escribe un operador (+,-,*,/): ")
 num2 = input ("Escribe un numero: ")
 
 if not( (operacion == "+") or (operacion == "-") or (operacion == "*") or (operacion == "/") ):
