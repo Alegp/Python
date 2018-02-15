@@ -18,4 +18,4 @@ else:
             print "El resultado es", (num1*num2)
         else:
 			if (operacion == "/"):
-				print "El resultado es" (num1/num2)
+				print "El resultado es", (num1/num2)
