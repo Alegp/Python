@@ -3,7 +3,7 @@
 # Inicializaciones
 salir  = "N"
 suma   = 1
-maximo = input ("Indique un numero:") 
+maximo = input ("Indique un numero: ") 
 sumaTotal  = 0
 
 if maximo <= 0 :
@@ -11,12 +11,14 @@ if maximo <= 0 :
 
 while ( salir=="N" ):
 	# Hago cosas
-	print suma
-
+	if (suma <= maximo-1):
+		print suma ,"+" ,
+	else:
+		print suma ,
 	# Incremento
 	sumaTotal = suma + sumaTotal
 	suma  = suma + 1
 	# Activo indicador de salida si toca
 	if ( suma > maximo): # Condición de salida
-		print sumaTotal
+		print "=", sumaTotal
 		salir = "S"
