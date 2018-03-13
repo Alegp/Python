@@ -3,7 +3,7 @@
 # Inicializaciones
 salir  = "N"
 suma   = 1
-maximo = input ("Indique un numero: ") 
+maximo = 5
 sumaTotal  = 0
 
 if maximo <= 0 :
