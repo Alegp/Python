@@ -9,12 +9,12 @@ sumaTotal  = 0
 while ( salir=="N" ):
     # Hago cosas
     if (suma%2==0):
-        print (suma , )
+        print suma , 
         if (suma <= maximo -1):
-            print ("+", )
+            print "+", 
         # Incremento
         sumaTotal = suma + 1
     # Activo indicador de salida si toca
     if ( suma > maximo): # Condición de salida
-        print ("=", sumaTotal)
+        print "=", sumaTotal
         salir = "S"
